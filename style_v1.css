@@ -7,20 +7,46 @@ img {
     display: grid;
     padding: 15px 15px 15px 15px;
     gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 2fr 1fr 1fr 1fr;
     grid-template-areas:
-    "name name name bio"
-    "image-1 image-1 image-1 text-1"
-    "image-2 image-2 image-2 text-2"
-    "image-3 image-3 image-3 text-3"
+    "name name name name bio bio"
+    ". . image-1 image-1 image-1 text-1"
+    "image-2 image-2 image-2 text-2 . ."
+    ". . image-3 image-3 image-3 text-3"
 }
 
 .name {
     grid-area: name;
 }
 
+.name h1 {
+    color:darkblue;
+    font-size: 400px;
+    font-family: monospace;
+    font-weight: unset;
+    margin: 0;
+}
+
+.name h1:hover {
+    color: crimson;
+    font-style: oblique;
+}
+
 .bio {
     grid-area: bio;
+    font-family: monospace;
+}
+
+.bio p {
+    color: darkblue;
+    font-size: 50px;
+    font-family: monospace;
+    line-height: 2.1;
+}
+
+.bio p:hover {
+    color: crimson;
+    font-style: oblique;
 }
 
 .image-1 {
@@ -37,6 +63,10 @@ img {
 
 .text-1 {
     grid-area: text-1;
+}
+
+.text-1 p {
+
 }
 
 .text-2 {
