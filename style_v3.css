@@ -25,11 +25,23 @@ img {
     gap: 15px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "bio-1 name name name . ."
-    "bio-2 name name name . ."
     ". . . . . ."
     ". . . . . ."
     ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    "bio-1 name name name name bio-3"
+    "bio-2 name name name name bio-4"
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . projekte projekte . ."
     ". . . . . ."
     "image-1 image-1 . . . ."
     "text-1 . . . . ."
@@ -49,12 +61,11 @@ img {
     font-weight: 600;
     margin: 0;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "CutiveMono-Regular";
 }
 
 .name h1:hover {
     color: crimson;
-    font-style: oblique;
     transition: color 2s ease-in;
     transition: color 2s ease-out;
 }
@@ -68,11 +79,14 @@ img {
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
 .bio-1 p:hover {
     color: crimson;
     font-style: oblique;
+    opacity: 0.2;
 }
 
 .bio-2 {
@@ -87,6 +101,55 @@ img {
 }
 
 .bio-2 p:hover {
+    color: crimson;
+    font-style: oblique;
+}
+
+.bio-3 {
+    grid-area: bio-3;
+}
+
+.bio-3 p {
+    color: darkblue;
+    font-size: 36px;
+    line-height: 2.1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bio-3 p:hover {
+    color: crimson;
+    font-style: oblique;
+}
+
+.bio-4 {
+    grid-area: bio-4;
+}
+
+.bio-4 p {
+    color: darkblue;
+    font-size: 36px;
+    line-height: 2.1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bio-4 p:hover {
+    color: crimson;
+    font-style: oblique;
+}
+
+.projekte {
+    grid-area: projekte;
+}
+
+.projekte p {
+    color: darkblue;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 500;
+}
+
+.projekte p:hover {
     color: crimson;
     font-style: oblique;
 }
@@ -107,8 +170,25 @@ img {
     grid-area: image-2;
 }
 
+.image-2 img {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: box-shadows 0.3 ease;
+}
+
+.image-2 img:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5)
+}
+
 .image-3 {
     grid-area: image-3;
+}
+
+.image-3 img {
+    transition: transform 0.3s ease;
+}
+
+.image-3 img:hover {
+    transform: rotate(5deg);
 }
 
 .text-1 {
