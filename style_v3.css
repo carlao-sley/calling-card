@@ -21,34 +21,34 @@ img {
 
 .grid-container {
     display: grid;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px ;
     gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    "bio-1 name name name name bio-3"
-    "bio-2 name name name name bio-4"
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . projekte projekte . ."
-    ". . . . . ."
-    "image-1 image-1 image-4 image-4 image-7 image-7"
-    "text-1 . . . . ."
-    "image-2 image-2 image-5 image-5 image-8 image-8"
-    "text-2 . . . . ."
-    "image-3 image-3 image-6 image-6 image-9 image-9"
-    "text-3 . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    "bio-1 . name name name name bio-3 bio-3"
+    "bio-2 . name name name name bio-4 bio-4"
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . projekte projekte . . ."
+    ". . . . . . . ."
+    "image-1 image-1 . image-4 image-4 . image-7 image-7"
+    "text-1 . . . . . . ."
+    "image-2 image-2 . image-5 image-5 . image-8 image-8"
+    "text-2 . . . . . . ."
+    "image-3 image-3 . image-6 image-6 . image-9 image-9"
+    "text-3 . . . . . . ."
 }
 
 .name {
@@ -79,14 +79,11 @@ img {
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
-    opacity: 1;
-    transition: opacity 0.5s ease;
 }
 
 .bio-1 p:hover {
     color: crimson;
     font-style: oblique;
-    opacity: 0.2;
 }
 
 .bio-2 {
@@ -98,11 +95,14 @@ img {
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
 .bio-2 p:hover {
     color: crimson;
     font-style: oblique;
+    opacity: 0.2;
 }
 
 .bio-3 {
@@ -114,11 +114,15 @@ img {
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
 .bio-3 p:hover {
     color: crimson;
     font-style: oblique;
+    opacity: 0.2;
 }
 
 .bio-4 {
@@ -130,11 +134,14 @@ img {
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
 .bio-4 p:hover {
     color: crimson;
     font-style: oblique;
+    opacity: 0.2;
 }
 
 .projekte {
