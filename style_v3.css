@@ -43,11 +43,11 @@ img {
     ". . . . . ."
     ". . projekte projekte . ."
     ". . . . . ."
-    "image-1 image-1 . . . ."
+    "image-1 image-1 image-4 image-4 image-7 image-7"
     "text-1 . . . . ."
-    "image-2 image-2 . . . ."
+    "image-2 image-2 image-5 image-5 image-8 image-8"
     "text-2 . . . . ."
-    "image-3 image-3 . . . ."
+    "image-3 image-3 image-6 image-6 image-9 image-9"
     "text-3 . . . . ."
 }
 
@@ -189,6 +189,30 @@ img {
 
 .image-3 img:hover {
     transform: rotate(5deg);
+}
+
+.image-4 {
+    grid-area: image-4;
+}
+
+.image-5 {
+    grid-area: image-5;
+}
+
+.image-6 {
+    grid-area: image-6;
+}
+
+.image-7 {
+    grid-area: image-7;
+}
+
+.image-8 {
+    grid-area: image-8;
+}
+
+.image-9 {
+    grid-area: image-9;
 }
 
 .text-1 {
