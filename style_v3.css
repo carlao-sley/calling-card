@@ -114,7 +114,7 @@ img {
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
-    text-align: right;
+    text-align: left;
     opacity: 1;
     transition: opacity 0.5s ease;
 }
@@ -178,12 +178,11 @@ img {
 }
 
 .image-2 img {
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    transition: box-shadows 0.3 ease;
+    transition: transform 0.3s ease;
 }
 
 .image-2 img:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5)
+    transform: scale(1.5);
 }
 
 .image-3 {
@@ -195,31 +194,77 @@ img {
 }
 
 .image-3 img:hover {
-    transform: rotate(5deg);
+    transform: scale(1.5);
 }
 
 .image-4 {
     grid-area: image-4;
 }
 
+.image-4 img {
+    transition: transform 0.3s ease;
+}
+
+.image-4 img:hover {
+    transform: scale(1.5);
+}
+
 .image-5 {
     grid-area: image-5;
+}
+
+.image-5 img {
+    transition: transform 0.3s ease;
+}
+
+.image-5 img:hover {
+    transform: scale(1.5);
 }
 
 .image-6 {
     grid-area: image-6;
 }
 
+.image-6 img {
+    transition: transform 0.3s ease;
+}
+
+.image-6 img:hover {
+    transform: scale(1.5);
+}
+
 .image-7 {
     grid-area: image-7;
+}
+
+.image-7 img {
+    transition: transform 0.3s ease;
+}
+
+.image-7 img:hover {
+    transform: scale(1.5);
 }
 
 .image-8 {
     grid-area: image-8;
 }
 
+.image-8 img {
+    transition: transform 0.3s ease;
+}
+.image-8 img:hover {
+    transform: scale(1.5);
+}
+
 .image-9 {
     grid-area: image-9;
+}
+
+.image-9 img {
+    transition: transform 0.3s ease;
+}
+.image-9 img:hover {
+    transform: scale(1.5);
 }
 
 .text-1 {
