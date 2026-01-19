@@ -43,12 +43,14 @@ img {
     ". . . . . . . ."
     ". . . projekte projekte . . ."
     ". . . . . . . ."
+    "projekt-1 projekt-1 . projekt-2 projekt-2 . projekt-3 projekt-3"
+    ". . . . . . . ."
     "image-1 image-1 . image-4 image-4 . image-7 image-7"
-    "text-1 . . . . . . ."
+    "text-1 text-1 . text-4 text-4 . text-7 text-7"
     "image-2 image-2 . image-5 image-5 . image-8 image-8"
-    "text-2 . . . . . . ."
+    "text-2 text-2 . text-5 text-5 . text-8 text-8"
     "image-3 image-3 . image-6 image-6 . image-9 image-9"
-    "text-3 . . . . . . ."
+    "text-3 text-3 . text-6 text-6 . text-9 text-9"
 }
 
 .name {
@@ -281,4 +283,40 @@ img {
 
 .text-3 {
     grid-area: text-3;
+}
+
+.text-4 {
+    grid-area: text-4;
+}
+
+.text-5 {
+    grid-area: text-5;
+}
+
+.text-6 {
+    grid-area: text-6;
+}
+
+.text-7 {
+    grid-area: text-7;
+}
+
+.text-8 {
+    grid-area: text-8;
+}
+
+.text-9 {
+    grid-area: text-9;
+}
+
+.projekt-1 {
+    grid-area: projekt-1;
+}
+
+.projekt-2 {
+    grid-area: projekt-2;
+}
+
+.projekt-3 {
+    grid-area: projekt-3;
 }
