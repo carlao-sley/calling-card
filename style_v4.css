@@ -10,7 +10,7 @@
 
 body {
     font-family: "Avara-Bold", serif;
-    background-color: darkgrey;
+    background-color: rgb(93, 43, 70);
     font-size: 15px;
     margin: 0;
     padding: 20px;
@@ -58,7 +58,7 @@ img {
 }
 
 .name h1 {
-    color:darkblue;
+    color:rgb(112, 183, 230);
     font-size: 300px;
     font-weight: 600;
     margin: 0;
@@ -77,7 +77,7 @@ img {
 }
 
 .bio-1 p {
-    color: darkblue;
+    color:rgb(112, 183, 230);
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
@@ -93,7 +93,7 @@ img {
 }
 
 .bio-2 p {
-    color: darkblue;
+    color:rgb(112, 183, 230);
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
@@ -113,7 +113,7 @@ img {
 }
 
 .bio-3 p {
-    color: darkblue;
+    color:rgb(112, 183, 230);
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
@@ -133,7 +133,7 @@ img {
 }
 
 .bio-4 p {
-    color: darkblue;
+    color:rgb(112, 183, 230);
     font-size: 36px;
     line-height: 2.1;
     font-family: 'Courier New', Courier, monospace;
@@ -153,7 +153,7 @@ img {
 }
 
 .projekte p {
-    color: darkblue;
+    color:rgb(112, 183, 230);
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -167,7 +167,7 @@ img {
 
 .box-1 {
     grid-area: box-1;
-    background-color: brown;
+    background-color: rgb(112, 183, 230);
     padding: 15px;
     display: block;
     grid-template-columns: 1fr 1fr;
@@ -175,37 +175,14 @@ img {
     gap: 10px;
 }
 
-.box-1-image-1 {
-background-color: cyan;
-}
-
 .box-1-text-1 {
-    background-color: yellow;
-}
-
-.box-1-image-2 {
-    aspect-ratio: 1;
-    background-color: cyan;
-}
-
-.box-1-text-2 {
-    aspect-ratio: 1;
-    background-color: yellow;
-}
-
-.box-1-image-3 {
-    aspect-ratio: 1;
-    background-color: cyan;
-}
-
-.box-1-text-3 {
-    aspect-ratio: 1;
-    background-color: yellow;
+    color: rgb(93, 43, 70);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .box-2 {
     grid-area: box-2;
-    background-color: brown;
+    background-color: rgb(112, 183, 230);
     padding: 15px;
     display: block;
     grid-template-columns: 1fr 1fr;
@@ -213,34 +190,14 @@ background-color: cyan;
     gap: 10px;
 }
 
-.box-2-image-4 {
-    background-color: cyan;
-}
-
 .box-2-text-4 {
-    background-color: yellow;
-}
-
-.box-2-image-5 {
-    background-color: cyan;
-    
-}
-
-.box-2-text-5 {
-    background-color: yellow;
-}
-
-.box-2-image-6 {
-    background-color: cyan;
-}
-
-.box-2-text-6 {
-    background-color: yellow;
+    color: rgb(93, 43, 70);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .box-3 {
     grid-area: box-3;
-    background-color: brown;
+    background-color: rgb(112, 183, 230);
     padding: 15px;
     display: block;
     grid-template-columns: 1fr 1fr;
@@ -248,29 +205,9 @@ background-color: cyan;
     gap: 10px;
 }
 
-.box-3-image-7 {
-    background-color: cyan;
-}
-
 .box-3-text-7 {
-    background-color: yellow;
-}
-
-.box-3-image-8 {
-    background-color: cyan;
-    
-}
-
-.box-3-text-8 {
-    background-color: yellow;
-}
-
-.box-3-image-9 {
-    background-color: cyan;
-}
-
-.box-3-text-9 {
-    background-color: yellow;
+    color: rgb(93, 43, 70);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .box-1-image-1,
@@ -378,11 +315,11 @@ background-color: cyan;
     grid-area: image-5;
 }
 
-.image-5 img {
+.box-2-image-5 img {
     transition: transform 0.3s ease;
 }
 
-.image-5 img:hover {
+.box-2-image-5 img:hover {
     transform: scale(1.5);
 }
 
@@ -390,11 +327,11 @@ background-color: cyan;
     grid-area: image-6;
 }
 
-.image-6 img {
+.box-2-image-6 img {
     transition: transform 0.3s ease;
 }
 
-.image-6 img:hover {
+.box-2-image-6 img:hover {
     transform: scale(1.5);
 }
 
@@ -402,11 +339,11 @@ background-color: cyan;
     grid-area: image-7;
 }
 
-.image-7 img {
+.box-3-image-7 img {
     transition: transform 0.3s ease;
 }
 
-.image-7 img:hover {
+.box-3-image-7 img:hover {
     transform: scale(1.5);
 }
 
@@ -414,10 +351,10 @@ background-color: cyan;
     grid-area: image-8;
 }
 
-.image-8 img {
+.box-3-image-8 img {
     transition: transform 0.3s ease;
 }
-.image-8 img:hover {
+.box-3-image-8 img:hover {
     transform: scale(1.5);
 }
 
@@ -425,10 +362,10 @@ background-color: cyan;
     grid-area: image-9;
 }
 
-.image-9 img {
+.box-3-image-9 img {
     transition: transform 0.3s ease;
 }
-.image-9 img:hover {
+.box-3-image-9 img:hover {
     transform: scale(1.5);
 }
 
@@ -476,10 +413,34 @@ background-color: cyan;
     grid-area: projekt-1;
 }
 
+.projekt-1 p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(93, 43, 70);
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 40px;
+}
+
 .projekt-2 {
     grid-area: projekt-2;
 }
 
+.projekt-2 p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(93, 43, 70);
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 40px;
+}
+
 .projekt-3 {
     grid-area: projekt-3;
+}
+
+.projekt-3 p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(93, 43, 70);
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 40px;
 }
