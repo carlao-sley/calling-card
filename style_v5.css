@@ -13,18 +13,8 @@
     src: url("fonts/LilyScriptOne-Regular.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "Basalte-Fond";
-    src: url("fonts/Basalte-Fond.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "PinyonScript-Regular";
-    src: url("fonts/PinyonScript-Regular.ttf") format("truetype");
-}
-
 body {
-    background-color: rgb(103, 148, 171);
+    background-color: rgb(93, 43, 70);
     font-size: 15px;
     margin: 0;
     padding: 20px;
@@ -43,9 +33,15 @@ img {
     gap: 15px;
     grid-template-columns: 75px 1fr 1fr 100px 1fr 1fr 100px 1fr 1fr 75px;
     grid-template-areas:
-    ". . . name name name name . . ."
-    ". . . name name name name . . ."
-    ". . . bio-1 bio-1 bio-1 bio-1 . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    "bio-1 bio-1 bio-1 name name name name bio-3 bio-3 bio-3"
+    "bio-2 bio-2 bio-2 name name name name bio-4 bio-4 bio-4"
+    ". . . . . . . . . ."
     ". . . . . . . . . ."
     ". . . . . . . . . ."
     ". . . . . . . . . ."
@@ -81,13 +77,13 @@ img {
 }
     
 a {
-    color: rgb(103, 148, 171);
+    color: rgb(93, 43, 70);
     text-decoration: none;
     font-size: 20px;
     display: inline-block;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
-    background-color:rgb(229, 177, 207);
+    background-color: rgb(112, 183, 230);
     padding: 10px 20px;
 }
 
@@ -100,15 +96,15 @@ a {
 }
 
 .name h1 {
-    color:rgb(229, 177, 207);
+    color:rgb(112, 183, 230);
     font-size: 250px;
     font-weight: 300;
     margin: 0;
     text-align: center;
-    font-family: "Basalte-Fond";
+    font-family: "LilyScriptOne-Regular";
     align-content: center;
-    /* position:relative;
-    right: 90px; */
+    position:relative;
+    right: 90px;
 }
 
 /* .name h1:hover {
@@ -122,19 +118,16 @@ a {
 }
 
 .bio-1 p {
-    color:rgb(229, 177, 207);
-    font-size:80px;
+    color:rgb(112, 183, 230);
+    font-size: 36px;
     line-height: 2.1;
-    font-family: "PinyonScript-Regular";
-    text-align: center;
-    position:relative;
-    bottom: 100px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-/* .bio-1 p:hover {
+.bio-1 p:hover {
     color: crimson;
     font-style: oblique;
-} */
+}
 
 .bio-2 {
     grid-area: bio-2;
@@ -202,7 +195,7 @@ a {
 }
 
 .hi p {
-    color:rgb(229, 177, 207);
+    color:rgb(112, 183, 230);
     font-size: 130px;
     text-align: center;
     font-family: "LilyScriptOne-Regular";
@@ -214,7 +207,7 @@ a {
 }
 
 .description p {
-     color:rgb(229, 177, 207);
+     color:rgb(112, 183, 230);
      font-family: 'Courier New', Courier, monospace;
      font-size: 20px;
      position:relative;
@@ -228,9 +221,9 @@ a {
 }
 
 .projekte p {
-    color:rgb(229, 177, 207);
-    font-size: 80px;
-    font-family: "PinyonScript-Regular";
+    color:rgb(112, 183, 230);
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-weight: 500;
 }
@@ -242,7 +235,7 @@ a {
 
 .box-1 {
     grid-area: box-1;
-    background-color: rgb(229, 177, 207);
+    background-color: rgb(112, 183, 230);
     padding: 15px;
     display: block;
     grid-template-columns: 1fr 1fr;
@@ -252,15 +245,13 @@ a {
 }
 
 .box-1-text-1 {
-    color:rgb(83, 143, 183);
+    color: rgb(93, 43, 70);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    /* font-weight: 600; */
 }
 
 .box-2 {
     grid-area: box-2;
-    background-color: rgb(229, 177, 207);
+    background-color: rgb(112, 183, 230);
     padding: 15px;
     display: block;
     grid-template-columns: 1fr 1fr;
@@ -270,15 +261,13 @@ a {
 }
 
 .box-2-text-4 {
-    color:rgb(83, 143, 183);
+    color: rgb(93, 43, 70);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    /* font-weight: 600; */
 }
 
 .box-3 {
     grid-area: box-3;
-    background-color: rgb(229, 177, 207);
+    background-color: rgb(112, 183, 230);
     padding: 15px;
     display: block;
     grid-template-columns: 1fr 1fr;
@@ -288,10 +277,8 @@ a {
 }
 
 .box-3-text-7 {
-    color:rgb(83, 143, 183);
+    color: rgb(93, 43, 70);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    /* font-weight: 600; */
 }
 
 .box-1-image-1,
@@ -498,11 +485,11 @@ a {
 }
 
 .projekt-1 p {
-    font-family: "Basalte-Fond";
-    color:rgb(83, 143, 183);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(93, 43, 70);
     text-align: center;
     /* font-weight: 600; */
-    font-size: 42px;
+    font-size: 40px;
 }
 
 .projekt-2 {
@@ -510,11 +497,11 @@ a {
 }
 
 .projekt-2 p {
-    font-family: "Basalte-Fond";
-    color:rgb(83, 143, 183);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(93, 43, 70);
     text-align: center;
     /* font-weight: 600; */
-    font-size: 42px;
+    font-size: 40px;
 }
 
 .projekt-3 {
@@ -522,10 +509,10 @@ a {
 }
 
 .projekt-3 p {
-    font-family: "Basalte-Fond";
-    color:rgb(83, 143, 183);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(93, 43, 70);
     text-align: center;
     /* font-weight: 600; */
-    font-size: 42px;
+    font-size: 40px;
 }
 
